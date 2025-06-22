@@ -1,0 +1,10 @@
+langchain>=0.2.0,<0.3.0
+langchain-core>=0.2.0,<0.3.0
+langchain-community>=0.0.1,<0.1.0
+langchain-google-genai>=0.0.1,<0.1.0 # Or specific version you used, e.g., langchain-google-genai==0.0.10
+chromadb>=0.5.0,<0.6.0
+tiktoken>=0.7.0,<0.8.0 # Used by RecursiveCharacterTextSplitter.from_tiktoken_encoder
+bs4>=0.0.1,<0.1.0 
+beautifulsoup4>=4.12.0,<4.13.0 # Explicitly include beautifulsoup4 as bs4 is just a wrapper
+python-dotenv>=1.0.0,<2.0.0 # If you plan to use .env files for API keys
+pydantic>=2.0.0,<3.0.0 # LangChain often relies on Pydantic v2
