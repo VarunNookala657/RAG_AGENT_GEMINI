@@ -38,10 +38,10 @@ This project demonstrates an AI agent powered by LangChain and Google Gemini, de
 
 To run this project locally, follow these steps:
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[Your-GitHub-Username]/[Your-Repo-Name].git
-    cd [Your-Repo-Name]
+    git clone [https://github.com/VarunNookala657/RAG_AGENT_GEMINI.git](https://github.com/VarunNookala657/RAG_AGENT_GEMINI.git)
+    cd RAG_AGENT_GEMINI
     ```
 2.  **Create a virtual environment (recommended):**
     ```bash
@@ -61,7 +61,7 @@ To run this project locally, follow these steps:
         (For persistent setup, consider adding this to your `.bashrc` or `.zshrc` file, or load it within the notebook as shown in the project code.)
 5.  **Run the Jupyter Notebook:**
     ```bash
-    jupyter notebook RAG_IPL_2025_Agent.ipynb
+    jupyter notebook Gemini_Agentic_RAG.ipynb
     ```
     Follow the instructions within the notebook cells to execute the code step-by-step.
 
